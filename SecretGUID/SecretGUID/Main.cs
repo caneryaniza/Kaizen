@@ -8,7 +8,7 @@ void generateCode()
 {
     Console.WriteLine("-------------Generated Codes-------------");
     Random rnd = new Random();
-    for (int i = 0; i < 100000; i++)
+    for (int i = 0; i < 1000; i++)
     {
         string generatedCode = "";
         for (int j = 0; j < 8; j++)
